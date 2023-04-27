@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float money, tran, transm;
+
+    printf("환율을 입력하시오:");
+    scanf("%f",&tran);
+
+    printf("원화 금액을 입력하시오:");
+    scanf("%f", &money);
+
+    transm = money/tran;
+
+    printf("원화%.0f원은 %f달러입니다.",money,transm);
+
+    return 0;
+}
