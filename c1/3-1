@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define TAX_RATE 0.2
+int main()
+{
+    const int MONTHS =12;
+    int m,y;
+
+    printf("월급을 입력하시오:");
+    scanf("%d",&m);
+    y=MONTHS*m;
+    printf("연봉은 %d입니다\n",y);
+    printf("세금은 %f",y*TAX_RATE);
+
+    return 0;
+
+}
