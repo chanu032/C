@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    double speed, kmeter, second;
+
+    scanf("%lf", &speed);
+    printf("빛의 속도는 %lfkm/s\n",speed);
+    
+    scanf("%lf", &kmeter);
+    printf("태양과 지구와의 거리 %lfkm", kmeter);
+
+    second = kmeter/speed;
+    printf("도달 시간은 %lf초", second);
+
+    return 0;
+
+}
