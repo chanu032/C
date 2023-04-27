@@ -1,0 +1,30 @@
+include <stdio.h>
+
+int main()
+{
+    int money,remoney,price;
+    float c5000,c1000,c500,c100;
+
+    printf("물건 값을 입력하시오:");
+    scanf("%f",&price);
+
+    printf("투입한 금액을 입력하시오:");
+    scanf("%f",&money);
+
+    remoney=price-money;
+
+    printf("거스름돈은 다음과 같습니다.\n");
+
+    c1000=remoney/1000;
+    remoney=remoney %1000;
+
+    c500=remoney/500;
+    remoney=remoney % 500;
+
+    c100=remoney/100;
+    remoney=remoney % 100;
+
+    printf("\n천원권:%d\n",c1000);
+    printf("오백원 동전:%d개\n",c500);
+    printf("백원 동전:%d개\n",c100);
+}
