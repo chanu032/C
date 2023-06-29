@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(void) {
+  int X;
+  scanf("%d", &X);
+  if(100>=X&&90<=X)
+  {
+    printf("A");
+  }
+  else if(90>X&&80<=X)
+  {
+    printf("B");
+  }
+    else if(80>X&&70<=X)
+  {
+    printf("C");
+  }
+    else if(70>X&&60<=X)
+  {
+    printf("D");
+  }
+    else{
+      printf("F");
+    }
+  return 0;
+}
