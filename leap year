@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int X;
+  scanf("%d", &X);
+  if(X%4==0&&X%100!=0||X%400==0)
+  {
+    printf("1");
+  }
+  else{
+    printf("0");
+  }
+
+  return 0;
+}
