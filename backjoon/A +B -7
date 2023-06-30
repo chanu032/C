@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  int X, A, B;
+
+  scanf("%d", &X);
+
+  for(int x =1 ; x<=X; x++)
+    {
+      scanf("%d %d", &A, &B);
+      printf("Case #%d: %d\n", x, A+B);
+    }
+
+  return 0;
+}
