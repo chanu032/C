@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main(void) {
+  double X, sum;
+  float a;
+  int N, b;
+
+  
+
+  scanf("%lf", &X);
+  scanf("%d", &N);
+  sum = 0;
+
+  for(int i=1; i<=N; i++)
+    {
+      scanf("%f %d", &a, &b);
+      sum += (a*b);
+      
+    }
+  if(sum==X)
+  {
+    printf("Yes");
+  }
+  else{
+    printf("No");
+  }
+  
+  
+}
