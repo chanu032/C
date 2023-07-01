@@ -1,0 +1,10 @@
+#include <stdio.h>
+#define MAX 100
+
+int main(void) {
+  int num1 = MAX;
+  int num2 = MAX - 1;
+  printf("MAX = %d\n", MAX);
+
+  return 0;
+}
