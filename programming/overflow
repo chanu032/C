@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <limits.h> // SHRT_MAX 등의 매크로 상수가 정의된 헤더 포함
+
+int main(void) {
+  short num1 = SHRT_MAX;// SHRT_MAX는 short형의 최대값
+  short num2 = SHRT_MIN;// SHRT_MIN은 short형의 최소값
+  unsigned short num3 = USHRT_MAX;//USHRT_MAX는 unsigned short형의 최대값
+  unsigned short num4 = 0;
+  num1 += 1;
+  num2 -= 1;
+  num3 += 1;
+  num4 -= 1;
+
+  printf("num1 = %d\n", num1);
+  printf("num2 = %d\n", num2);
+  printf("num3 = %d\n", num3);
+  printf("num4 = %d\n", num4);
+
+  return 0;
+}
